@@ -24,9 +24,14 @@ public class Maestro extends DatoGeneral{
     }
     @Override
     public void modificar() {
-      System.out.println("Modificando Maestro");
+      System.out.println("Modificando Maestro: CLASE HIJA");
       System.out.println("DUI: " + dui);
       System.out.println("Grados: " + grados);
     }
-
+    @Override
+    public void imprimir() {
+        // TODO Auto-generated method stub
+        
+    }
+    
 }

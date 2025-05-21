@@ -1,6 +1,6 @@
 package registroacademico;
 
-public class DatoGeneral {
+public abstract class DatoGeneral {
     private String nombre;
     private String direccion;
     private String telefono;
@@ -38,21 +38,24 @@ public class DatoGeneral {
         this.email = email;
     }
     public void registrar() {
-        System.out.println("Registro de datos generales:");
+        System.out.println("Registro de datos generales: CLASE MADRE");
         System.out.println("Nombre: " + nombre);
         System.out.println("Dirección: " + direccion);
         System.out.println("Teléfono: " + telefono);
         System.out.println("Email: " + email);
     }
     public void modificar() {
-        System.out.println("Modificación de datos generales:");
+        System.out.println("Modificación de datos generales: CLASE MADRE");
         System.out.println("Nombre: " + nombre);
         System.out.println("Dirección: " + direccion);
         System.out.println("Teléfono: " + telefono);
         System.out.println("Email: " + email);
     }
     public void eliminar() {
-        System.out.println("Eliminación de datos generales:");
+        System.out.println("Eliminación de datos generales: CLASE MADRE");
         System.out.println("Nombre: " + nombre);
-    }   
+    }
+
+    public abstract void imprimir();
+
 }
