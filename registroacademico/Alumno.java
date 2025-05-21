@@ -30,4 +30,12 @@ public class Alumno extends DatoGeneral {
         System.out.println("Entrega de tarea del alumno " + getNombre() + ":");
         // Aquí se puede implementar la lógica para entregar una tarea
     }
+    @Override
+    public void registrar() {
+        System.out.println("Registro de alumno:");
+        System.out.println("Número de carnet: " + nCarnet);
+        System.out.println("Encargado: " + encargado);
+
+    }
+    
 }
