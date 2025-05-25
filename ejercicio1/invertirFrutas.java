@@ -13,8 +13,7 @@ public class invertirFrutas {
             frutas[i] = entrada.nextLine();
         }
 
-        System.out.println("
-        Contenido del vector en forma inversa:");
+        System.out.println(" Contenido del vector en forma inversa:");
         for (int i = frutas.length - 1; i >= 0; i--) {
             System.out.println(frutas[i]);
         }
