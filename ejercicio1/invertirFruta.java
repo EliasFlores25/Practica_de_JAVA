@@ -1,7 +1,7 @@
 package ejercicio1;
 import java.util.Scanner;
 
-public class invertirFrutas {
+public class invertirFruta {
     public static void main(String[] args) {
         String[] frutas = new String[10];
 
