@@ -25,7 +25,7 @@ public class mayorMenorVector {
             }
         }
 
-        System.out.println("\nEl mayor número ingresado es: " + mayor);
+        System.out.println("El mayor número ingresado es: " + mayor);
         System.out.println("El menor número ingresado es: " + menor);
 
         entrada.close();
